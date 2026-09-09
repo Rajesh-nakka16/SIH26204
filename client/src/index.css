@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0b1820;
+  --navy: #0e2028;
+  --panel: rgba(20, 47, 54, 0.67);
+  --line: rgba(205, 242, 229, 0.15);
+  --lime: #b6ef75;
+  --mint: #83e3cb;
+  --cyan: #69d5e9;
+  --orange: #ff9f54;
+  --soft: #c3d5d1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0b1820;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--ink);
+  color: #f4fbf6;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+}
